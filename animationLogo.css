@@ -1,0 +1,35 @@
+ /* The animation code */
+ @keyframes logo {
+   0% {
+     background-color: rgb(228, 197, 23);
+     transform: translateX(-150px);
+   }
+
+   25% {
+     background-color: rgb(255, 102, 0);
+   }
+
+   50% {
+     background-color: rgb(231, 0, 162);
+   }
+
+   100% {
+     background-color: rgb(154, 58, 199);
+     
+
+   }
+   
+ }
+
+ /* The element to apply the animation to */
+ div :hover {
+
+   width: 350px;
+   height: 180px;
+   animation-name: logo;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   filter: hue-rotate(180deg);
+
+
+ }
